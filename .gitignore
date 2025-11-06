@@ -1,0 +1,76 @@
+# Python ---------------------------------
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env.*
+
+# 字节码和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook -----------------------
+# Checkpoints
+.ipynb_checkpoints/
+
+# IPykernel/runtime files
+.profile/
+profile_default/
+ipython_kernel_config.py
+*.json
+
+# Data -----------------------------------
+# 常见数据目录（强烈推荐）
+data/
+datasets/
+*.csv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.dat
+*.data
+
+# Models & Logs --------------------------
+# 训练好的模型权重
+
+models/
+checkpoints/
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+
+# 日志文件和 TensorBoard
+logs/
+runs/
+*.log
+*.tfevents.*
+
+# OS & Editor specific -------------------
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.swp
+.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
